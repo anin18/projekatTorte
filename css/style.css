@@ -286,3 +286,7 @@ div.cake_kids{
       border-bottom: none !important;
 
    } 
+.cakes img{
+    height: 100%;
+    border: 4px double darkmagenta;
+}
