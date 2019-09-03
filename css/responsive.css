@@ -34,7 +34,9 @@
     color: orangered ;
   }
 
-
+ .login-form{
+    max-width: 80%;
+}
   /*-------------CAKES (gallery)----------------*/
 
 .title::before,
@@ -212,6 +214,9 @@
  .title::after{
      right:15%;
  }
+.login-form{
+  max-width: 50%;
+    }
 }
 
 
