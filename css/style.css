@@ -289,3 +289,124 @@ div.cake_kids{
 .cakes img{
     border: 4px double darkmagenta;
 }
+
+
+
+/*---------------------LOGIN---------------------------*/
+
+section.login .main-sweet-wall{
+    height: 540px;
+}
+.login-wrapper {
+    top:20%;
+    left:50%;
+    width:70%;
+    transform: translateX(-50%);
+    background-color: #851e72;
+    background-attachment: fixed;
+    border:10px dotted  #b2af34; 
+    border-radius: 52px;
+}
+.login-wrapper h2{
+    color: #b2af34;
+}
+
+.login-wrapper h5 {
+    color:#cfaccfe3;
+}
+.login-wrapper h5 a{
+    color:#b2af34;
+    font-size: 1.25rem;
+}
+.login-form  input{
+    background-color: #851e72;
+    border:none;
+    border-bottom: 1px solid #936693;
+    color:white;
+}
+
+.login-form input:hover,
+.login-form  input:active,
+.login-form  input:focus{
+    background-color: #851e72;
+    border:none;
+    border-bottom: 1px solid white ;
+    color:white;
+}
+.login-form  input::placeholder{
+    color: #cfaccfe3;
+}
+.login-form  .form-control,
+.registration-form  .form-control{
+    border-radius: 0;
+}
+.login-form  .form-control:focus,
+.registration-form  .form-control:focus{
+    box-shadow: none;
+}
+.login-form .btn{
+    color: #b2af34;
+    border: 1px solid  #b2af34;
+}
+.login-form .btn:hover{
+    background-color: #b2af34;
+    color:#533454;
+}
+.login-form .lost-password{
+    color: #cfaccfe3;
+   text-decoration-line: underline;
+   cursor: pointer;
+}
+.login-form .lost-password:hover{
+    color:#b2af34;
+}
+/*-----------------registration form--------------------*/
+.registration-wrapper{
+        top:110%;
+        left:50%;
+        width:70%;
+        transform: translateX(-50%);
+        background-color:  #b2af34; 
+        background-attachment: fixed;
+        border:10px dotted #851e72;
+        border-radius: 52px;
+}
+.registration-wrapper h2 {
+    color: #851e72;
+}
+.registration-wrapper h5 {
+    color:#4F3900;
+}
+.registration-wrapper h5 a {
+    color:#851e72;
+    font-size: 1.25rem;
+}
+.registration-form  input{
+    background-color: #b2af34;;
+    border:none;
+    border-bottom: 1px solid #4F3900;
+    color:white;
+}
+
+.registration-form input:hover,
+.registration-form  input:active,
+.registration-form  input:focus{
+    background-color: #b2af34;
+    border:none;
+    border-bottom: 1px solid #851e72;
+    color:#851e72;
+}
+.registration-form  input::placeholder{
+    color: #745b17;
+}
+.registration-form .btn{
+    color:#851e72;
+    border: 1px solid #851e72;
+}
+.registration-form .btn:hover{
+    color: #b2af34;
+    background-color:#851e72;
+}
+
+
+
